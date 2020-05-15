@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C635FDF24653FA70037923F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C635FDE24653FA70037923F /* AppDelegate.m */; };
+		8C635FE224653FA70037923F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C635FE124653FA70037923F /* SceneDelegate.m */; };
+		8C635FE524653FA70037923F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C635FE424653FA70037923F /* ViewController.m */; };
+		8C635FE824653FA70037923F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C635FE624653FA70037923F /* Main.storyboard */; };
+		8C635FEA24653FAA0037923F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C635FE924653FAA0037923F /* Assets.xcassets */; };
+		8C635FED24653FAA0037923F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C635FEB24653FAA0037923F /* LaunchScreen.storyboard */; };
+		8C635FF024653FAA0037923F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C635FEF24653FAA0037923F /* main.m */; };
+		8C635FF924653FF20037923F /* TCExpandTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C635FF824653FF20037923F /* TCExpandTableView.m */; };
+		8C635FFE2465541C0037923F /* TCHeaderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C635FFD2465541C0037923F /* TCHeaderModel.m */; };
+		8C63600124655EE90037923F /* TCDepModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C63600024655EE90037923F /* TCDepModel.m */; };
+		8C6360042465766B0037923F /* TCSOPItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6360032465766B0037923F /* TCSOPItemModel.m */; };
+		8C636007246579360037923F /* TCSOPItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C636006246579360037923F /* TCSOPItemView.m */; };
+		B8855384838494B7F74E30C7 /* Pods_TCExpandTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0FCCFB89CB5C722DBE70AD7 /* Pods_TCExpandTableView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		65B47D5529D93DB8CFF14FAB /* Pods-TCExpandTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCExpandTableView.debug.xcconfig"; path = "Target Support Files/Pods-TCExpandTableView/Pods-TCExpandTableView.debug.xcconfig"; sourceTree = "<group>"; };
+		8C635FDA24653FA70037923F /* TCExpandTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCExpandTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C635FDD24653FA70037923F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8C635FDE24653FA70037923F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8C635FE024653FA70037923F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		8C635FE124653FA70037923F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		8C635FE324653FA70037923F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8C635FE424653FA70037923F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8C635FE724653FA70037923F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C635FE924653FAA0037923F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C635FEC24653FAA0037923F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C635FEE24653FAA0037923F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C635FEF24653FAA0037923F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C635FF724653FF20037923F /* TCExpandTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCExpandTableView.h; sourceTree = "<group>"; };
+		8C635FF824653FF20037923F /* TCExpandTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCExpandTableView.m; sourceTree = "<group>"; };
+		8C635FFA2465436C0037923F /* TCExpandTableViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCExpandTableViewProtocol.h; sourceTree = "<group>"; };
+		8C635FFC2465541C0037923F /* TCHeaderModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCHeaderModel.h; sourceTree = "<group>"; };
+		8C635FFD2465541C0037923F /* TCHeaderModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCHeaderModel.m; sourceTree = "<group>"; };
+		8C635FFF24655EE90037923F /* TCDepModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCDepModel.h; sourceTree = "<group>"; };
+		8C63600024655EE90037923F /* TCDepModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCDepModel.m; sourceTree = "<group>"; };
+		8C6360022465766B0037923F /* TCSOPItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCSOPItemModel.h; sourceTree = "<group>"; };
+		8C6360032465766B0037923F /* TCSOPItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCSOPItemModel.m; sourceTree = "<group>"; };
+		8C636005246579360037923F /* TCSOPItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCSOPItemView.h; sourceTree = "<group>"; };
+		8C636006246579360037923F /* TCSOPItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCSOPItemView.m; sourceTree = "<group>"; };
+		8C9182D124669A7A00C67C2E /* TCSOPItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCSOPItem.h; sourceTree = "<group>"; };
+		E0BB7814B7DA5708972824C1 /* Pods-TCExpandTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCExpandTableView.release.xcconfig"; path = "Target Support Files/Pods-TCExpandTableView/Pods-TCExpandTableView.release.xcconfig"; sourceTree = "<group>"; };
+		F0FCCFB89CB5C722DBE70AD7 /* Pods_TCExpandTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCExpandTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C635FD724653FA70037923F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8855384838494B7F74E30C7 /* Pods_TCExpandTableView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21F26B6309AABDFBBAE41A28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65B47D5529D93DB8CFF14FAB /* Pods-TCExpandTableView.debug.xcconfig */,
+				E0BB7814B7DA5708972824C1 /* Pods-TCExpandTableView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6B725B20D37497A566339F12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0FCCFB89CB5C722DBE70AD7 /* Pods_TCExpandTableView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C635FD124653FA70037923F = {
+			isa = PBXGroup;
+			children = (
+				8C635FFB246552FB0037923F /* Example */,
+				8C635FF624653FE20037923F /* Classes */,
+				8C635FDC24653FA70037923F /* TCExpandTableView */,
+				8C635FDB24653FA70037923F /* Products */,
+				21F26B6309AABDFBBAE41A28 /* Pods */,
+				6B725B20D37497A566339F12 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8C635FDB24653FA70037923F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C635FDA24653FA70037923F /* TCExpandTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C635FDC24653FA70037923F /* TCExpandTableView */ = {
+			isa = PBXGroup;
+			children = (
+				8C635FDD24653FA70037923F /* AppDelegate.h */,
+				8C635FDE24653FA70037923F /* AppDelegate.m */,
+				8C635FE024653FA70037923F /* SceneDelegate.h */,
+				8C635FE124653FA70037923F /* SceneDelegate.m */,
+				8C635FE324653FA70037923F /* ViewController.h */,
+				8C635FE424653FA70037923F /* ViewController.m */,
+				8C635FE624653FA70037923F /* Main.storyboard */,
+				8C635FE924653FAA0037923F /* Assets.xcassets */,
+				8C635FEB24653FAA0037923F /* LaunchScreen.storyboard */,
+				8C635FEE24653FAA0037923F /* Info.plist */,
+				8C635FEF24653FAA0037923F /* main.m */,
+			);
+			path = TCExpandTableView;
+			sourceTree = "<group>";
+		};
+		8C635FF624653FE20037923F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8C635FF724653FF20037923F /* TCExpandTableView.h */,
+				8C635FF824653FF20037923F /* TCExpandTableView.m */,
+				8C635FFA2465436C0037923F /* TCExpandTableViewProtocol.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8C635FFB246552FB0037923F /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				8C635FFC2465541C0037923F /* TCHeaderModel.h */,
+				8C635FFD2465541C0037923F /* TCHeaderModel.m */,
+				8C635FFF24655EE90037923F /* TCDepModel.h */,
+				8C63600024655EE90037923F /* TCDepModel.m */,
+				8C6360022465766B0037923F /* TCSOPItemModel.h */,
+				8C6360032465766B0037923F /* TCSOPItemModel.m */,
+				8C636005246579360037923F /* TCSOPItemView.h */,
+				8C636006246579360037923F /* TCSOPItemView.m */,
+				8C9182D124669A7A00C67C2E /* TCSOPItem.h */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C635FD924653FA70037923F /* TCExpandTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C635FF324653FAA0037923F /* Build configuration list for PBXNativeTarget "TCExpandTableView" */;
+			buildPhases = (
+				F4CE58FFA9009CB61424F041 /* [CP] Check Pods Manifest.lock */,
+				8C635FD624653FA70037923F /* Sources */,
+				8C635FD724653FA70037923F /* Frameworks */,
+				8C635FD824653FA70037923F /* Resources */,
+				B90E421F07ABBABC77702ACA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TCExpandTableView;
+			productName = TCExpandTableView;
+			productReference = 8C635FDA24653FA70037923F /* TCExpandTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C635FD224653FA70037923F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "tospur co,.ltd.";
+				TargetAttributes = {
+					8C635FD924653FA70037923F = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 8C635FD524653FA70037923F /* Build configuration list for PBXProject "TCExpandTableView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C635FD124653FA70037923F;
+			productRefGroup = 8C635FDB24653FA70037923F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C635FD924653FA70037923F /* TCExpandTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C635FD824653FA70037923F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C635FED24653FAA0037923F /* LaunchScreen.storyboard in Resources */,
+				8C635FEA24653FAA0037923F /* Assets.xcassets in Resources */,
+				8C635FE824653FA70037923F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B90E421F07ABBABC77702ACA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TCExpandTableView/Pods-TCExpandTableView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TCExpandTableView/Pods-TCExpandTableView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TCExpandTableView/Pods-TCExpandTableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4CE58FFA9009CB61424F041 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TCExpandTableView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C635FD624653FA70037923F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C635FE524653FA70037923F /* ViewController.m in Sources */,
+				8C635FDF24653FA70037923F /* AppDelegate.m in Sources */,
+				8C63600124655EE90037923F /* TCDepModel.m in Sources */,
+				8C635FF024653FAA0037923F /* main.m in Sources */,
+				8C6360042465766B0037923F /* TCSOPItemModel.m in Sources */,
+				8C635FE224653FA70037923F /* SceneDelegate.m in Sources */,
+				8C635FF924653FF20037923F /* TCExpandTableView.m in Sources */,
+				8C636007246579360037923F /* TCSOPItemView.m in Sources */,
+				8C635FFE2465541C0037923F /* TCHeaderModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8C635FE624653FA70037923F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C635FE724653FA70037923F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C635FEB24653FAA0037923F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C635FEC24653FAA0037923F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C635FF124653FAA0037923F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8C635FF224653FAA0037923F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C635FF424653FAA0037923F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65B47D5529D93DB8CFF14FAB /* Pods-TCExpandTableView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TCExpandTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tospur.TCExpandTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C635FF524653FAA0037923F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0BB7814B7DA5708972824C1 /* Pods-TCExpandTableView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TCExpandTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tospur.TCExpandTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C635FD524653FA70037923F /* Build configuration list for PBXProject "TCExpandTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C635FF124653FAA0037923F /* Debug */,
+				8C635FF224653FAA0037923F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C635FF324653FAA0037923F /* Build configuration list for PBXNativeTarget "TCExpandTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C635FF424653FAA0037923F /* Debug */,
+				8C635FF524653FAA0037923F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C635FD224653FA70037923F /* Project object */;
+}
