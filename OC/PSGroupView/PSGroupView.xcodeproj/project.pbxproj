@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C0ECE7A247385FC00DAD0D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0ECE79247385FC00DAD0D9 /* AppDelegate.m */; };
+		8C0ECE7D247385FC00DAD0D9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0ECE7C247385FC00DAD0D9 /* SceneDelegate.m */; };
+		8C0ECE80247385FC00DAD0D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0ECE7F247385FC00DAD0D9 /* ViewController.m */; };
+		8C0ECE83247385FC00DAD0D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C0ECE81247385FC00DAD0D9 /* Main.storyboard */; };
+		8C0ECE85247385FE00DAD0D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C0ECE84247385FE00DAD0D9 /* Assets.xcassets */; };
+		8C0ECE88247385FE00DAD0D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C0ECE86247385FE00DAD0D9 /* LaunchScreen.storyboard */; };
+		8C0ECE8B247385FE00DAD0D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0ECE8A247385FE00DAD0D9 /* main.m */; };
+		8C0ECE952473865000DAD0D9 /* PSGroupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0ECE942473865000DAD0D9 /* PSGroupView.m */; };
+		8C0ECE9824738D1C00DAD0D9 /* PSGroupHeaderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0ECE9724738D1C00DAD0D9 /* PSGroupHeaderModel.m */; };
+		8C0ECE9B24738D8D00DAD0D9 /* PSGroupDepModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0ECE9A24738D8D00DAD0D9 /* PSGroupDepModel.m */; };
+		8C0ECE9E2473A1C600DAD0D9 /* PSGroupMemberModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0ECE9D2473A1C600DAD0D9 /* PSGroupMemberModel.m */; };
+		EF9C79E5381539BCBDC3F366 /* Pods_PSGroupView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70BE35D998357061B8336462 /* Pods_PSGroupView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A6991DC6A26CDC8DCBE9F5E /* Pods-PSGroupView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSGroupView.release.xcconfig"; path = "Target Support Files/Pods-PSGroupView/Pods-PSGroupView.release.xcconfig"; sourceTree = "<group>"; };
+		70BE35D998357061B8336462 /* Pods_PSGroupView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PSGroupView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0ECE75247385FC00DAD0D9 /* PSGroupView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSGroupView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0ECE78247385FC00DAD0D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8C0ECE79247385FC00DAD0D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8C0ECE7B247385FC00DAD0D9 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		8C0ECE7C247385FC00DAD0D9 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		8C0ECE7E247385FC00DAD0D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8C0ECE7F247385FC00DAD0D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8C0ECE82247385FC00DAD0D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C0ECE84247385FE00DAD0D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C0ECE87247385FE00DAD0D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C0ECE89247385FE00DAD0D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C0ECE8A247385FE00DAD0D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C0ECE922473863D00DAD0D9 /* PSGroupItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSGroupItem.h; sourceTree = "<group>"; };
+		8C0ECE932473865000DAD0D9 /* PSGroupView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSGroupView.h; sourceTree = "<group>"; };
+		8C0ECE942473865000DAD0D9 /* PSGroupView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSGroupView.m; sourceTree = "<group>"; };
+		8C0ECE9624738D1C00DAD0D9 /* PSGroupHeaderModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSGroupHeaderModel.h; sourceTree = "<group>"; };
+		8C0ECE9724738D1C00DAD0D9 /* PSGroupHeaderModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSGroupHeaderModel.m; sourceTree = "<group>"; };
+		8C0ECE9924738D8D00DAD0D9 /* PSGroupDepModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSGroupDepModel.h; sourceTree = "<group>"; };
+		8C0ECE9A24738D8D00DAD0D9 /* PSGroupDepModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSGroupDepModel.m; sourceTree = "<group>"; };
+		8C0ECE9C2473A1C600DAD0D9 /* PSGroupMemberModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSGroupMemberModel.h; sourceTree = "<group>"; };
+		8C0ECE9D2473A1C600DAD0D9 /* PSGroupMemberModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSGroupMemberModel.m; sourceTree = "<group>"; };
+		BDED5EEA297F01185CC12889 /* Pods-PSGroupView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSGroupView.debug.xcconfig"; path = "Target Support Files/Pods-PSGroupView/Pods-PSGroupView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C0ECE72247385FC00DAD0D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9C79E5381539BCBDC3F366 /* Pods_PSGroupView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28B5C34AA3DE7A9D71173BDB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDED5EEA297F01185CC12889 /* Pods-PSGroupView.debug.xcconfig */,
+				2A6991DC6A26CDC8DCBE9F5E /* Pods-PSGroupView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8C0ECE6C247385FC00DAD0D9 = {
+			isa = PBXGroup;
+			children = (
+				8C0ECE912473861D00DAD0D9 /* Classes */,
+				8C0ECE77247385FC00DAD0D9 /* PSGroupView */,
+				8C0ECE76247385FC00DAD0D9 /* Products */,
+				28B5C34AA3DE7A9D71173BDB /* Pods */,
+				DA1DFC0D2671AD42EC2E5F02 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8C0ECE76247385FC00DAD0D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C0ECE75247385FC00DAD0D9 /* PSGroupView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C0ECE77247385FC00DAD0D9 /* PSGroupView */ = {
+			isa = PBXGroup;
+			children = (
+				8C0ECE78247385FC00DAD0D9 /* AppDelegate.h */,
+				8C0ECE79247385FC00DAD0D9 /* AppDelegate.m */,
+				8C0ECE7B247385FC00DAD0D9 /* SceneDelegate.h */,
+				8C0ECE7C247385FC00DAD0D9 /* SceneDelegate.m */,
+				8C0ECE7E247385FC00DAD0D9 /* ViewController.h */,
+				8C0ECE7F247385FC00DAD0D9 /* ViewController.m */,
+				8C0ECE81247385FC00DAD0D9 /* Main.storyboard */,
+				8C0ECE84247385FE00DAD0D9 /* Assets.xcassets */,
+				8C0ECE86247385FE00DAD0D9 /* LaunchScreen.storyboard */,
+				8C0ECE89247385FE00DAD0D9 /* Info.plist */,
+				8C0ECE8A247385FE00DAD0D9 /* main.m */,
+				8C0ECE9624738D1C00DAD0D9 /* PSGroupHeaderModel.h */,
+				8C0ECE9724738D1C00DAD0D9 /* PSGroupHeaderModel.m */,
+				8C0ECE9924738D8D00DAD0D9 /* PSGroupDepModel.h */,
+				8C0ECE9A24738D8D00DAD0D9 /* PSGroupDepModel.m */,
+				8C0ECE9C2473A1C600DAD0D9 /* PSGroupMemberModel.h */,
+				8C0ECE9D2473A1C600DAD0D9 /* PSGroupMemberModel.m */,
+			);
+			path = PSGroupView;
+			sourceTree = "<group>";
+		};
+		8C0ECE912473861D00DAD0D9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8C0ECE922473863D00DAD0D9 /* PSGroupItem.h */,
+				8C0ECE932473865000DAD0D9 /* PSGroupView.h */,
+				8C0ECE942473865000DAD0D9 /* PSGroupView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DA1DFC0D2671AD42EC2E5F02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70BE35D998357061B8336462 /* Pods_PSGroupView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C0ECE74247385FC00DAD0D9 /* PSGroupView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C0ECE8E247385FE00DAD0D9 /* Build configuration list for PBXNativeTarget "PSGroupView" */;
+			buildPhases = (
+				2A8455CD1B07A3F3D6BE6A43 /* [CP] Check Pods Manifest.lock */,
+				8C0ECE71247385FC00DAD0D9 /* Sources */,
+				8C0ECE72247385FC00DAD0D9 /* Frameworks */,
+				8C0ECE73247385FC00DAD0D9 /* Resources */,
+				5DBCBEA27523515647ACDD16 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PSGroupView;
+			productName = PSGroupView;
+			productReference = 8C0ECE75247385FC00DAD0D9 /* PSGroupView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C0ECE6D247385FC00DAD0D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = swx;
+				TargetAttributes = {
+					8C0ECE74247385FC00DAD0D9 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 8C0ECE70247385FC00DAD0D9 /* Build configuration list for PBXProject "PSGroupView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C0ECE6C247385FC00DAD0D9;
+			productRefGroup = 8C0ECE76247385FC00DAD0D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C0ECE74247385FC00DAD0D9 /* PSGroupView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C0ECE73247385FC00DAD0D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0ECE88247385FE00DAD0D9 /* LaunchScreen.storyboard in Resources */,
+				8C0ECE85247385FE00DAD0D9 /* Assets.xcassets in Resources */,
+				8C0ECE83247385FC00DAD0D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A8455CD1B07A3F3D6BE6A43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PSGroupView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DBCBEA27523515647ACDD16 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PSGroupView/Pods-PSGroupView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PSGroupView/Pods-PSGroupView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PSGroupView/Pods-PSGroupView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C0ECE71247385FC00DAD0D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0ECE9E2473A1C600DAD0D9 /* PSGroupMemberModel.m in Sources */,
+				8C0ECE9B24738D8D00DAD0D9 /* PSGroupDepModel.m in Sources */,
+				8C0ECE80247385FC00DAD0D9 /* ViewController.m in Sources */,
+				8C0ECE9824738D1C00DAD0D9 /* PSGroupHeaderModel.m in Sources */,
+				8C0ECE7A247385FC00DAD0D9 /* AppDelegate.m in Sources */,
+				8C0ECE8B247385FE00DAD0D9 /* main.m in Sources */,
+				8C0ECE7D247385FC00DAD0D9 /* SceneDelegate.m in Sources */,
+				8C0ECE952473865000DAD0D9 /* PSGroupView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8C0ECE81247385FC00DAD0D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C0ECE82247385FC00DAD0D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C0ECE86247385FE00DAD0D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C0ECE87247385FE00DAD0D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C0ECE8C247385FE00DAD0D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8C0ECE8D247385FE00DAD0D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C0ECE8F247385FE00DAD0D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDED5EEA297F01185CC12889 /* Pods-PSGroupView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PSGroupView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = swx.PSGroupView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C0ECE90247385FE00DAD0D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A6991DC6A26CDC8DCBE9F5E /* Pods-PSGroupView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PSGroupView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = swx.PSGroupView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C0ECE70247385FC00DAD0D9 /* Build configuration list for PBXProject "PSGroupView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0ECE8C247385FE00DAD0D9 /* Debug */,
+				8C0ECE8D247385FE00DAD0D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C0ECE8E247385FE00DAD0D9 /* Build configuration list for PBXNativeTarget "PSGroupView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0ECE8F247385FE00DAD0D9 /* Debug */,
+				8C0ECE90247385FE00DAD0D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C0ECE6D247385FC00DAD0D9 /* Project object */;
+}
