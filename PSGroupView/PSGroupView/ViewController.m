@@ -48,7 +48,7 @@
 
 - (void)loadData {
     [self.mdlHeader loadItems:[self loadTestData]];
-    [self.mdlHeader reloadView];
+//    [self.mdlHeader reloadView];
 }
 
 - (NSArray*)loadTestData {
@@ -91,6 +91,11 @@
           ]
          }
     ];
+    NSData* data = [NSJSONSerialization dataWithJSONObject:array options:NSJSONWritingSortedKeys error:nil];
+    NSString* str = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+    if (str) {
+        
+    }
     NSMutableArray* result = @[].mutableCopy;
     for (NSDictionary* dict in array) {
         PSGroupDepModel* model = [PSGroupDepModel yy_modelWithDictionary:dict];
